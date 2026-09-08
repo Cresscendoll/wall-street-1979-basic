@@ -1,0 +1,12 @@
+.tools/
+build/
+internal/
+work/
+*.exe
+*.o
+*.obj
+*.c
+*.cpp
+*.tmp
+*.log
+WALL_STREET_1979_BASIC_PROJECT.md

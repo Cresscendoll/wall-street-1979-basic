@@ -1,0 +1,3 @@
+*.bas linguist-language=BASIC
+*.bas linguist-detectable
+*.md linguist-documentation
