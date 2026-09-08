@@ -1,5 +1,7 @@
 # NASDAQ/NMS TOP 100 — 1984 Market Value Monitor
 
+![Boot screen](screenshots/boot.png)
+
 ![NASDAQ/NMS main menu](screenshots/main-menu.png)
 
 NASDAQ/NMS TOP 100 is a deliberately old-fashioned, line-numbered BASIC application built around the historical 1984 table of 100 NASDAQ/NMS market-value leaders.
@@ -73,6 +75,8 @@ The source remains BASIC; compiler-generated intermediates stay outside the trac
 
 ## Provenance
 
+The canonical transcribed dataset and migration methodology are included in [NASDAQ_NMS_1984_VERIFIED_DATASET.md](NASDAQ_NMS_1984_VERIFIED_DATASET.md).
+
 Primary archival source:
 
 - Montana State Senate, Business & Industry Committee minutes, February 14, 1985:
@@ -96,4 +100,3 @@ GitHub Linguist configuration explicitly classifies WALLST79.BAS as BASIC and do
 ## License
 
 MIT. See LICENSE.
-
