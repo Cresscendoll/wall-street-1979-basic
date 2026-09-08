@@ -16,16 +16,21 @@ The release is a standalone Windows x64 executable. No BASIC compiler, QB64-PE i
 
 ## First launch on Windows / SmartScreen notice
 
-Windows Defender SmartScreen may show a standard warning the first time you launch the EXE. This happens because the executable is not digitally signed / code-signed, so Windows has not built a publisher reputation for it yet. That is common for small independently distributed software releases.
+Windows Defender SmartScreen may show the standard red warning screen the first time you launch the EXE. This happens because the executable is not digitally signed / code-signed, so Windows has not built a publisher reputation for it yet. That is common for small independently distributed software releases.
 
 This warning is about code-signing reputation, not about the application being packaged incorrectly. The program remains a standalone EXE; a BASIC compiler is not required.
 
-To continue:
+The normal first-launch flow is:
 
-1. Click **More info**.
-2. Click **Run anyway**.
+1. On the red warning screen, click **More info**.
 
-![Windows SmartScreen first-launch steps](README_assets/smartscreen-english-annotated.png)
+   ![Step 1 — click More info](README_assets/smartscreen-step1-more-info.png)
+
+2. On the expanded warning screen, click **Run anyway**.
+
+   ![Step 2 — click Run anyway](README_assets/smartscreen-step2-run-anyway.png)
+
+On localized Windows systems, these buttons may appear in the local language, such as **Подробнее** and **Выполнить в любом случае**.
 
 For safety, download the file only from this repository's official GitHub Release. If desired, verify the published SHA-256 checksum:
 
