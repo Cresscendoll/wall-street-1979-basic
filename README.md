@@ -8,6 +8,29 @@ NASDAQ/NMS TOP 100 is a deliberately old-fashioned, line-numbered BASIC applicat
 
 It is a compact financial terminal from an alternate 1980s: black screen, phosphor green text, amber selection, ASCII U.S. flag, keyboard navigation and a standalone Windows x64 executable.
 
+## Download / first launch on Windows
+
+Download `NASDAQ-NMS-1984-Windows-x64.exe` from the [official GitHub Release](https://github.com/Cresscendoll/wall-street-1979-basic/releases/latest).
+
+The release is a standalone Windows x64 executable. No BASIC compiler, QB64-PE installation, Python runtime, source checkout or internet connection is required to run it.
+
+## First launch on Windows / SmartScreen notice
+
+Windows Defender SmartScreen may show a standard warning the first time you launch the EXE. This happens because the executable is not digitally signed / code-signed, so Windows has not built a publisher reputation for it yet. That is common for small independently distributed software releases.
+
+This warning is about code-signing reputation, not about the application being packaged incorrectly. The program remains a standalone EXE; a BASIC compiler is not required.
+
+To continue:
+
+1. Click **More info**.
+2. Click **Run anyway**.
+
+![Windows SmartScreen first-launch steps](README_assets/smartscreen-english-annotated.png)
+
+For safety, download the file only from this repository's official GitHub Release. If desired, verify the published SHA-256 checksum:
+
+    E88A7EA6E12265A58EBEB690F3B22E03167DEDBAACD402983B42B7682B1BEFFB
+
 ## 100% BASIC
 
 All first-party application logic is in WALLST79.BAS. The repository is configured for GitHub Linguist so the intended language result is BASIC 100.0%.
@@ -58,12 +81,6 @@ The derived figure is never presented as an independently verified historical cl
 ![Market-value directory](screenshots/directory.png)
 
 ![Apple company detail](screenshots/company-detail.png)
-
-## Run
-
-Download WALLST79-Windows-x64.exe from the [latest GitHub Release](https://github.com/Cresscendoll/wall-street-1979-basic/releases/latest) and double-click it.
-
-The standalone executable does not require QB64-PE, Python, .NET, source files, data files or an internet connection.
 
 ## Build from source
 
